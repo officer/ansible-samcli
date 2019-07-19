@@ -1,0 +1,7 @@
+
+
+- name: "SAM | Install SAM CLI"
+  pip:
+    name: aws-sam-cli
+  become: yes
+  become_user: "{{ samuser }}"

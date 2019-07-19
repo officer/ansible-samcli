@@ -1,0 +1,7 @@
+- name: "SAM | Create SAM CLI user"
+  user:
+    name: "{{ samuser }}"
+    shell: /bin/bash
+    home: /home/"{{ samuser }}"
+    group: 10
+

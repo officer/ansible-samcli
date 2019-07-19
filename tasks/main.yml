@@ -1,0 +1,7 @@
+---
+# tasks file for AWSSAM
+- name: "SAM | create user task"
+  include_tasks: create_user.yml
+
+- name: "SAM | install samcli"
+  include_tasks: install_samcli.yml
